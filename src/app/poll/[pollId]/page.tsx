@@ -55,7 +55,7 @@ export default async function PollPage({ params }: PollPageProps) {
   const isExpired = new Date(poll.deadline) < new Date();
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100 py-8 px-4">
+    <main className="min-h-screen bg-linear-to-br from-primary-50 to-primary-100 py-8 px-4">
       <div className="max-w-3xl mx-auto space-y-6">
         <Card>
           <CardContent className="pt-6 space-y-6">

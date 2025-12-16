@@ -42,14 +42,14 @@ export default function PollHeader({
         {isExpired && (
           <>
             <span className="text-primary-300">•</span>
-            <Badge variant="secondary">Voting Closed</Badge>
+            <Badge variant="error">Voting Closed</Badge>
           </>
         )}
 
         {!isExpired && showRealtimeResults && (
           <>
             <span className="text-primary-300">•</span>
-            <Badge variant="primary">Real-time Results</Badge>
+            <Badge variant="default">Real-time Results</Badge>
           </>
         )}
       </div>

@@ -1,36 +1,36 @@
 export interface Poll {
   id: string
-  createdAt: string
-  updatedAt: string
-  creatorName: string
-  creatorEmail: string
+  created_at: string
+  updated_at: string
+  creator_name: string
+  creator_email: string
   question: string
   deadline: string
-  showRealtimeResults: boolean
-  accessCode: string
+  show_realtime_results: boolean
+  access_code: string
 }
 
 export interface PollOption {
   id: string
-  pollId: string
-  optionText: string
-  displayOrder: number
-  createdAt: string
+  poll_id: string
+  option_text: string
+  display_order: number
+  created_at: string
 }
 
 export interface Vote {
   id: string
-  pollId: string
-  pollOptionId: string
-  voterName: string
-  voterEmail: string
-  submittedAt: string
+  poll_id: string
+  poll_option_id: string
+  voter_name: string
+  voter_email: string
+  submitted_at: string
 }
 
 export interface PollResult {
-  optionId: string
-  optionText: string
-  voteCount: number
+  option_id: string
+  option_text: string
+  vote_count: number
   percentage: number
 }
 
