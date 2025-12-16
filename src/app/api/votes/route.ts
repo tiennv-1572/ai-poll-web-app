@@ -111,7 +111,7 @@ export async function POST(request: NextRequest) {
         vote: {
           id: vote.id,
           poll_id: vote.poll_id,
-          created_at: vote.created_at,
+          submitted_at: vote.submitted_at,
         },
       },
       { status: 201 }
