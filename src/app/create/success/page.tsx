@@ -107,7 +107,7 @@ function SuccessContent() {
           </CardHeader>
           <CardContent className="space-y-3">
             <div className="flex justify-center">
-              <Badge variant="primary" className="text-2xl font-mono px-6 py-3">
+              <Badge variant="default" className="text-2xl font-mono px-6 py-3">
                 {code}
               </Badge>
             </div>
